@@ -39,11 +39,6 @@ const SignupForm = ({ setIsLoggedIn }) => {
             ...formData
         }
 
-        const FinalData = {
-            ...accountData,
-            accountType
-        }
-
         navigate("/dashboard");
     }
 
