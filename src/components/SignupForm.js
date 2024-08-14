@@ -38,7 +38,8 @@ const SignupForm = ({ setIsLoggedIn }) => {
         const accountData = {
             ...formData
         }
-
+        console.log(accountData);
+        
         navigate("/dashboard");
     }
 
